@@ -7,6 +7,10 @@ h1 {
     font-size: 3rem;
 }
 
+p {
+    font-size: 1.25rem;
+}
+
 .card{
     padding: 100px;
     background-color: black;
