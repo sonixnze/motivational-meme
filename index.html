@@ -26,10 +26,17 @@ But it must have the following features:
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="poster">
-      <img class="motivational-img" src="https://picsum.photos/700/400?grayscale&blur=10" alt="">
-      <h1>Life is beautiful</h1>
-      <p>When you're colorblind and have forgotten your glasses at home</p>
-    </div>
+  <div class="card">
+    <img class="motivational-img" src="https://picsum.photos/700/400?grayscale&blur=10" alt="">
+    <h1>Life is beautiful</h1>
+    <p>When you're colorblind and have forgotten your glasses at home</p>
+  </div>
+  
+  <div class="button-container"><button id="refresh-button">Refresh</button></div>
+  <script>
+    document.getElementById("refresh-button").addEventListener("click", function() {
+      location.reload();
+    });
+  </script>
 </body>
 </html>
